@@ -1,107 +1,73 @@
-﻿/*  GENERAL STYLING */
+/* GENERAL STYLES */
 body {
-    font-family: Arial, sans-serif; /* Sets the font */
-    background-color: #f4f4f4; /* Light gray background */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333; /* Dark gray text */
-    line-height: 1.6;
+    background-color: #f9f9f9;
 }
 
-/* CONTAINER */
-/* Centers the main content */
 .container {
-    width: 60%;
+    max-width: 900px;
     margin: auto;
-    background: white;
-    padding: 40px;
-    border-radius: 10px; /* Rounds corners */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #e0f0ff;
+    color: #007BFF;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* SECTION HEADINGS */
+h1, h2, h5 {
+    color: #222;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
     margin-top: 40px;
 }
 
-/* HEADER */
-h1 {
-    text-align: center; /* Centers text and sets font for header*/
-    font-size: 42px;
-    font-weight: bold;
-    color: #222;
-}
-
-/*CONTACT INFO*/
-.contact-info {
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-    .contact-info a {
-        color: #0073e6;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-/* SECTION HEADERS*/
-h2 {
-    border-bottom: 3px solid #0073e6; /* Adds blue underline */
-    padding-bottom: 5px;
-    color: #0073e6;
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 30px;
-}
-
-/* SKILLS SECTION */
-.skills {
-    display: flex;
-    flex-wrap: wrap; /* Wraps to new line if needed */
-    justify-content: center;
-    gap: 10px;
-    padding: 0;
-}
-
-    .skills li {
-        background: #0073e6;
-        color: white;
-        padding: 10px 15px;
-        border-radius: 8px;
-        font-weight: bold;
-        list-style: none;
-        text-align: center;
-        transition: 0.3s;
-    }
-
-        .skills li:hover {
-            background: #005bb5;
-            transform: scale(1.05); /* Slight hover effect */
-        }
-
-/* EXPERIENCE & EDUCATION */
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-    ul li {
-        background: #f0f0f0; /* Light gray background */
-        padding: 12px;
-        border-radius: 5px;
-        margin: 5px 0;
-    }
-
-h5 {
-    font-size: 18px;
-    color: #222;
-    font-weight: bold;
-}
-
-/*FOOTER */
+/* FOOTER */
 footer {
     text-align: center;
-    font-size: 14px;
-    margin-top: 30px;
-    padding: 10px;
-    background: #0073e6;
-    color: white;
-    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
 }
