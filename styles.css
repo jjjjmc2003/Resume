@@ -1,27 +1,71 @@
-/* GENERAL STYLES */
+/* Reset & Base */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
+/* Container */
 .container {
     max-width: 900px;
     margin: auto;
-    padding: 20px;
+    padding: 40px 20px;
     background-color: #fff;
     border-radius: 8px;
 }
 
-/* NAVIGATION BAR */
-nav {
-    background-color: #ffffff;
+/* Header */
+.header-section {
+    text-align: center;
+    padding: 40px 0 20px;
+    background-color: #f8f9fa;
     border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.header-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.contact p {
+    margin: 6px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact i {
+    margin-right: 8px;
+    color: #007BFF;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Nav Bar */
+nav {
+    background-color: #333;
     padding: 10px 0;
     position: sticky;
     top: 0;
     z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -38,20 +82,20 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: bold;
     padding: 8px 16px;
-    border-radius: 20px;
+    border-radius: 10px;
+    background-color: #444;
     transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #e0f0ff;
-    color: #007BFF;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #555;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
-/* SECTION HEADINGS */
+/* Headings */
 h1, h2, h5 {
     color: #222;
 }
@@ -59,10 +103,12 @@ h1, h2, h5 {
 h2 {
     border-bottom: 2px solid #007BFF;
     padding-bottom: 5px;
-    margin-top: 40px;
+    scroll-margin-top: 100px;
+    margin-top: 80px;
+    font-size: 1.8em;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -72,90 +118,52 @@ footer {
     color: #555;
 }
 
+/* Skills */
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Projects */
 .project {
     margin-bottom: 30px;
-    padding: 15px;
+    padding: 20px;
     border-left: 4px solid #007BFF;
-    background-color: #f9f9f9;
-    border-radius: 6px;
+    background-color: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 .project h5 {
-    margin-top: 0;
+    margin: 0 0 8px;
+    font-size: 1.3em;
     color: #007BFF;
 }
 
+.project p {
+    margin: 0 0 10px;
+}
+
 .project ul {
-    list-style-type: disc;
     padding-left: 20px;
+    margin: 0;
+}
+
+.project li {
+    margin-bottom: 6px;
 }
 
 .project a {
     color: #007BFF;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .project a:hover {
     color: #0056b3;
-}
-h2 {
-    scroll-margin-top: 80px; /* Adjust based on your nav height */
-      margin-top: 60px;
-}
-
-/* NAVIGATION BAR (dark style) */
-nav {
-    background-color: #333;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    padding: 8px 16px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-    background-color: #444;
-}
-
-nav ul li a:hover {
-    background-color: #555; /*cool background*/
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-    color: #fff;
-}
-
-.header-section {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.header-section h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-.contact p {
-    margin: 4px 0;
-    font-size: 1em;
-}
-
-.contact a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.contact a:hover {
     text-decoration: underline;
 }
-
-.header-section {
-    text-align: center;
-    margin-bottom: 40px; /* Increase spacing below header */
-    margin-top: 20px;     /* Optional: adds space at the top */
-}
-
