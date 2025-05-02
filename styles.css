@@ -102,3 +102,30 @@ h2 {
     scroll-margin-top: 80px; /* Adjust based on your nav height */
       margin-top: 60px;
 }
+
+/* NAVIGATION BAR (dark style) */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: #444;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
