@@ -167,6 +167,12 @@ html {
     scroll-behavior: smooth;
 }
 
+@media print {
+  .page-break {
+    page-break-before: always;
+  }
+}
+
 
 .project a:hover {
     color: #0056b3;
