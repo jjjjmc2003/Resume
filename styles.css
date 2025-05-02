@@ -163,6 +163,11 @@ footer {
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .project a:hover {
     color: #0056b3;
     text-decoration: underline;
