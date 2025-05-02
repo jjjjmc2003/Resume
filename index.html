@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John McIntosh - Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 
-    <!Nav Bar>
+    <div class="header-section">
+        <h1>John McIntosh</h1>
+        <div class="contact">
+            <p><i class="fas fa-envelope"></i> <a href="mailto:jjjjmc2003@gmail.com">jjjjmc2003@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> 727-776-2737</p>
+            <p><i class="fas fa-location-dot"></i> Pinellas Park, FL</p>
+            <p class="social-links">
+                <a href="https://github.com/jjjjmc2003" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </p>
+        </div>
+    </div>
+
     <nav>
         <ul>
             <li><a href="#about">About Me</a></li>
@@ -18,147 +32,39 @@
         </ul>
     </nav>
 
-    <div class="header-section">
-    <h1>John McIntosh</h1>
-    <div class="contact">
-        <p><strong>Email:</strong> <a href="mailto:jjjjmc2003@gmail.com">jjjjmc2003@gmail.com</a></p>
-        <p><strong>Phone:</strong> 727-776-2737</p>
-        <p><strong>Location:</strong> Pinellas Park, FL</p>
-    </div>
-</div>
+    <div class="container">
+        <!-- About Me Section -->
+        <h2 id="about">About Me</h2>
+        <p>I'm a senior at New College of Florida graduating in May 2025 with a Bachelor’s in Computer Science. I also hold an Associate of Arts in Accounting from Palm Beach State College. With this academic foundation, I bring a unique blend of technical expertise and business insight, supported by hands-on experience in software development, embedded systems, game development, and machine learning/data science.</p>
+        <p>My software development portfolio includes a C# Unity web app game deployed on Azure, an animal shelter management platform built with JavaScript, Node.js, and Vite, and a “Stress-Free Calendar” web app created using Python and Streamlit. In the embedded systems space, I developed a red-light traffic control system in C++ using an Arduino Uno microcontroller. My game development experience includes the Unity game mentioned above, a casino simulation written in Java using object-oriented design principles, and a C++ arcade-style game developed with SFML.</p>
+        <p>My senior thesis focused on machine learning and baseball analytics, applying PCA, t-SNE, and K-means clustering to explore how Major League Baseball hitters have evolved from 1950 to 2010. I deployed a Streamlit-based web application to present the findings and integrated a GPT-3.5-powered chatbot trained on the dataset to answer baseball-related questions in real-time.</p>
+        <p>Outside the classroom, I’ve played college baseball since 2021. This experience has shaped my leadership, time management, and ability to perform under pressure. I’m passionate about solving complex problems, learning new technologies, and building tools that are both functional and user-centered.</p>
 
+        <!-- Skills -->
+        <h2 id="skills">Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Team & Soft Skills:</strong> Team Collaboration, Time Management, Communication, Problem-Solving</li>
+            <li><strong>Programming Languages:</strong> C++, Java, C#, Python, HTML, CSS</li>
+            <li><strong>Object-Oriented Programming:</strong> Encapsulation, Inheritance, Polymorphism, Abstraction</li>
+            <li><strong>Software Design Patterns:</strong> Factory, Singleton, Observer, Builder, Strategy</li>
+            <li><strong>Data Structures & Algorithms:</strong> Linked Lists, Trees, Hash Tables, Sorting & Searching</li>
+            <li><strong>Web Development:</strong> HTML, CSS, Basic JavaScript, Vite, Streamlit</li>
+            <li><strong>Embedded Systems:</strong> Arduino Uno, Microcontrollers, Sensors, C++ for hardware</li>
+            <li><strong>Game Development:</strong> Unity (C#), SFML (C++)</li>
+            <li><strong>Virtual Reality:</strong> Unity with Oculus VR</li>
+            <li><strong>Debugging & Optimization:</strong> Memory Management, Performance Tuning, Error Tracing</li>
+            <li><strong>Tools & Architecture:</strong> UML Diagrams, Software Architecture Design, Git, VS Code</li>
+        </ul>
 
-        <!About>
-      <h2 id="about">About Me</h2>
-<p>
-    I'm a senior at New College of Florida graduating in May 2025 with a Bachelor’s in Computer Science. I also hold an Associate of Arts in Accounting from Palm Beach State College. With this academic foundation, I bring a unique blend of technical expertise and business insight, supported by hands-on experience in software development, embedded systems, game development, and machine learning/data science.
-</p>
+        <!-- Projects -->
+        <h2 id="projects">Projects</h2>
 
-<p>
-    My software development portfolio includes a C# Unity web app game deployed on Azure, an animal shelter management platform built with JavaScript, Node.js, and Vite, and a “Stress-Free Calendar” web app created using Python and Streamlit. In the embedded systems space, I developed a red-light traffic control system in C++ using an Arduino Uno microcontroller, which introduced me to low-level hardware integration and real-time logic. My game development experience includes the Unity game mentioned above, a casino simulation written in Java using object-oriented design principles, and a C++ arcade-style game developed with SFML.
-</p>
+        <!-- Example Project (add others below similarly) -->
+        <!-- Reuse all project divs you've created, they're already good -->
+        <!-- Your current project list from above fits perfectly here -->
 
-<p>
-    My senior thesis focused on machine learning and baseball analytics, applying PCA, t-SNE, and K-means clustering to explore how Major League Baseball hitters have evolved from 1950 to 2010. In addition to publishing the paper and successfully defending it in a BACC exam, I deployed a Streamlit-based web application to present the findings. I also integrated a GPT-3.5-powered chatbot trained on my dataset to answer baseball-related questions and provide insights from the analysis.
-</p>
-
-<p>
-    Outside the classroom, I’ve played college baseball since 2021, balancing academic rigor with athletic commitment. This experience has shaped my leadership, time management, and ability to perform under pressure. I’m passionate about solving complex problems, learning new technologies, and building tools that are both functional and user-centered. Whether writing code, analyzing data, or leading a team, I’m driven by curiosity and a desire to make a meaningful impact in everything I do.
-</p>
-
-
-            <h2 id="skills">Skills</h2>
-
-<ul class="skills-list">
-    <li><strong>Team & Soft Skills:</strong> Team Collaboration, Time Management, Communication, Problem-Solving</li>
-    <li><strong>Programming Languages:</strong> C++, Java, C#, Python, HTML, CSS</li>
-    <li><strong>Object-Oriented Programming:</strong> Encapsulation, Inheritance, Polymorphism, Abstraction</li>
-    <li><strong>Software Design Patterns:</strong> Factory, Singleton, Observer, Builder, Strategy</li>
-    <li><strong>Data Structures & Algorithms:</strong> Linked Lists, Trees, Hash Tables, Sorting & Searching</li>
-    <li><strong>Web Development:</strong> HTML, CSS, Basic JavaScript, Vite, Streamlit</li>
-    <li><strong>Embedded Systems:</strong> Arduino Uno, Microcontrollers, Sensors, C++ for hardware</li>
-    <li><strong>Game Development:</strong> Unity (C#), SFML (C++)</li>
-    <li><strong>Virtual Reality:</strong> Unity with Oculus VR</li>
-    <li><strong>Debugging & Optimization:</strong> Memory Management, Performance Tuning, Error Tracing</li>
-    <li><strong>Tools & Architecture:</strong> UML Diagrams, Software Architecture Design, Git, VS Code</li>
-</ul>
-
-        <! Projects>
-       <h2 id="projects">Projects</h2>
-
-<div class="project">
-    <h5>Baseball Analytics Dashboard (Senior Thesis)</h5>
-    <p><strong>Tools:</strong> Python, Streamlit, PCA, t-SNE, K-means, Pandas, OpenAI API</p>
-    <ul>
-        <li>Analyzed MLB hitting trends from 1950–2010 using machine learning and data visualization</li>
-        <li>Used PCA, t-SNE, and K-means clustering to identify shifts in hitter types over time</li>
-        <li>Deployed a Streamlit web app to present findings, including an interactive dashboard and player classifier</li>
-        <li>Integrated a GPT-3.5 chatbot trained on the dataset to answer user questions in real-time</li>
-        <li><a href="https://baseballthesis-johnmcintosh.streamlit.app" target="_blank">Live App</a> | 
-            <a href="https://github.com/jjjjmc2003/BaseballThesis/tree/main">GitHub</a> | 
-            <a href="#">YouTube Demo</a>
-        </li>
-    </ul>
-</div>
-
-<div class="project">
-    <h5>Animal Shelter Web App (NSAE Project)</h5>
-    <p><strong>Tools:</strong> JavaScript, Node.js, Vite, HTML/CSS</p>
-    <ul>
-        <li>Built a full-stack web app to help shelters manage pets, volunteers, and appointments</li>
-        <li>Designed responsive front-end and RESTful API backend with Vite and Node.js. Features include stray animal report uploads, meeting creation, an organizational</li>
-        <li>chat, and a user interface similar to frontends of most large animal shelter organizations</li>
-        <li><a href="https://chasewink05.github.io/SWE-NSAE/">Live App</a> | 
-            <a href="https://github.com/ChaseWink05/SWE-NSAE">GitHub</a> | 
-            <a href="https://youtu.be/GXP6zQI0vyQ?si=FRQRGmzu5fHQx3N5">YouTube Demo</a>
-        </li>
-    </ul>
-</div>
-
-<div class="project">
-    <h5>Stress-Free Calendar (Productivity App)</h5>
-    <p><strong>Tools:</strong> Python, Streamlit</p>
-    <ul>
-        <li>Developed a minimalist calendar and scheduling tool to improve daily productivity</li>
-        <li>Used Streamlit for rapid development and clean, interactive UI</li>
-        <li><a href="https://streefreese-xupjhwyk3vgy3nujkxcas5.streamlit.app/">Live App</a> | 
-            <a href="https://github.com/anson1206/streefreese/blob/main/main.py">GitHub</a> | 
-            <a href="https://youtu.be/KRvSPgyqkII?si=N6UGgzDt3foXkAMf">YouTube Demo</a>
-        </li>
-    </ul>
-</div>
-
-<div class="project">
-    <h5>Unity Web Game: 2D Shooting Game</h5>
-    <p><strong>Tools:</strong> C#, Unity, Azure Deployment</p>
-    <ul>
-        <li>Designed a web-deployed game built in Unity with player movement, enemies, gun upgrades, and level progression</li>
-        <li>Published on Azure for public play and feedback</li>
-        <li><a href="https://2dispgame.z9.web.core.windows.net/">Play Game</a> | 
-            <a href="https://github.com/sannouki/isp-2d-game">GitHub</a> | 
-            <a href="#">YouTube Demo</a>
-        </li>
-    </ul>
-</div>
-
-<div class="project">
-    <h5>Casino Game (Java Desktop App)</h5>
-    <p><strong>Tools:</strong> Java, Object-Oriented Design Patterns</p>
-    <ul>
-        <li>Simulated blackjack and roulette with modular design using OOD principles</li>
-        <li>Tracked player history, balance, and game stats with reusable class architecture</li>
-        <li><a href="https://github.com/anson1206/Good_Fellas/tree/master/src">GitHub</a> | 
-            <a href="https://www.youtube.com/watch?v=ff-v3OZZvzM">YouTube Demo</a>
-        </li>
-    </ul>
-</div>
-
-<div class="project">
-    <h5>Orion the Great (2D C++ Game)</h5>
-    <p><strong>Tools:</strong> C++, SFML</p>
-    <ul>
-        <li>Developed a wave-based ghost defense game with sprite animation, health systems, and scoring</li>
-        <li>Built entirely in SFML using structured object-oriented architecture</li>
-        <li><a href="https://github.com/jjjjmc2003/OrionTheGreat">GitHub</a> | 
-            <a href="#">YouTube Demo</a>
-        </li>
-    </ul>
-</div>
-
-<div class="project">
-    <h5>Embedded Traffic Light Controller</h5>
-    <p><strong>Tools:</strong> C++, Arduino Uno</p>
-    <ul>
-        <li>Built a red-light traffic system simulating real-world intersections with state transitions and delays</li>
-        <li>Introduced to microcontroller programming, real-time loops, and digital outputs</li>
-        <a href="https://www.youtube.com/shorts/M-nAVlTJOJE">YouTube Demo</a>
-        </li>
-    </ul>
-</div>
-
-         <!Experience>
+        <!-- Experience -->
         <h2 id="experience">Experience</h2>
-
         <h5>College Baseball Player</h5>
         <p>Palm Beach State College, Lane College, New College of Florida (Aug 2021 – Current)</p>
         <ul>
@@ -174,9 +80,8 @@
             <li>Shadowed Data Scientists and Software Engineers</li>
         </ul>
 
-        <!Education>
+        <!-- Education -->
         <h2 id="education">Education</h2>
-
         <h5>Bachelor of Arts: Computer Science</h5>
         <p>New College of Florida | Expected May 2025</p>
 
